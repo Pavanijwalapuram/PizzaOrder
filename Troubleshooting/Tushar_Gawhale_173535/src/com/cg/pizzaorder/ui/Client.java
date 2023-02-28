@@ -10,7 +10,7 @@ import com.cg.pizzaorder.service.IPizzaOrderService;
 
 public class Client {
 	public static void main(String[] args) {
-		// create a objects of customer and pizzaorder
+		// create a objects of customer and pizzaOrder
 		Customer customer = null;
 		PizzaOrder pizza = null;
 
@@ -42,7 +42,7 @@ public class Client {
 
 			if (menuChoice.equals("1"))// place order
 			{
-				while (true)// set customername
+				while (true)// set CustomerName
 				{
 					System.out.println("Enter Your First Name With 1st letter Capital");
 					String name = scan.next();

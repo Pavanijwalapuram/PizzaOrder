@@ -21,7 +21,7 @@ public interface IPizzaOrderService {
 	public PizzaOrder getOrderDetails(int orderId) throws PizzaException;
 
 	// to validate inputs
-	public boolean validateMenuChoice(String menuChoice) throws PizzaException;
+	public boolean validateMenuChoice(String menuChoice) throws PizzaException,NullPointerException;
 
 	public boolean validateToppingChoice(String toppingChoice)
 			throws PizzaException;
